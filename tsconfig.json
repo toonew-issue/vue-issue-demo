@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "noImplicitReturns": true,
+    "allowJs": true,
+    "types": ["vite/client"],
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "lib": ["ESNext", "dom"],
+    "useUnknownInCatchVariables": false
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.vue"],
+  "exclude": ["node_modules", "dist", "src/**/*.spec.ts"]
+}

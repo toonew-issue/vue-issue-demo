@@ -1,0 +1,21 @@
+{
+  "name": "vue-issue-demo",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --mode development --force --debug",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons": "0.0.11",
+    "element-plus": "1.2.0-beta.5",
+    "vue": "3.2.23",
+    "vue-json-pretty": "2.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "1.10.1",
+    "esbuild": "0.14.2",
+    "typescript": "4.5.2",
+    "vite": "2.6.14"
+  }
+}
